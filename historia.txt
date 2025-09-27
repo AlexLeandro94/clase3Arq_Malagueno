@@ -1,0 +1,213 @@
+    1  whoami
+    2  pwd
+    3  ssh-keygen -t ed25519
+    4  ls -l
+    5  ls -la
+    6  cd .ssh
+    7  ls -l
+    8  cat id_ed25519.pub
+    9  cat id_ed25519
+   10  clear
+   11  pwd
+   12  cd ..
+   13  pwd
+   14  man man
+   15  man pwd
+   16  echo hola
+   17  echo $HOME
+   18  whoami
+   19  who
+   20  w
+   21  ls -l
+   22  ls
+   23  ls -l
+   24  ls -la
+   25  cd repogit
+   26  cd ..
+   27  mkdir clase4
+   28  ls -l
+   29  cd clase4
+   30  echo linea1
+   31  echo linea1 > archivo1.txt
+   32  ls -l
+   33  cat archivo1.txt
+   34  cat > archivo1.txt
+   35  ls -l
+   36  cat > archivo2.txt
+   37  ls -l
+   38  cat *.txt
+   39  cat archivo1txt >> archivo2.txt
+   40  cat archivo1.txt >> archivo2.txt
+   41  mkdir documentos
+   42  ls -l
+   43  cd ..
+   44  grep linea1 archivo2.txt
+   45  grep linea1 archivo1.txt
+   46  clase4$ 
+   47  ls -l
+   48  cd clase4
+   49  ls -l
+   50  tree
+   51  sudo apt install tree
+   52  snap install tree
+   53  sudo snap install tree
+   54  tree
+   55  mkdir practica
+   56  ls -l
+   57  cd practica
+   58  ls -l
+   59  touch practica1.txt
+   60  ls -l
+   61  cp practica1.txt practica2.txt
+   62  ls -l
+   63  vagrant halt
+   64  exit
+   65  mkdir clase4
+   66  ls -l
+   67  cd clase4
+   68  ls -l
+   69  cd ..
+   70  ls -l
+   71  rm -r clase4
+   72  mk dir clase5
+   73  cd clase5
+   74  ls -l
+   75  pwd
+   76  ls -l
+   77  mk dir clase5
+   78  mkdir clase5
+   79  ls -l
+   80  cd clase5
+   81  mkdir -p
+   82  cd ..
+   83  pwd
+   84  whoami
+   85  who
+   86  w
+   87  id
+   88  cat /etc/passwd
+   89  grep -i vagrant /etc/passwd
+   90  cat /etc/shadow
+   91  sudo cat /etc/shadow
+   92  grep -i vagrant /etc/shadow
+   93  sudo grep -i vagrant /etc/shadow
+   94  cat /etc/group
+   95  grep vagrant /etc/group
+   96  sudo su
+   97  ls -l
+   98  cat arch_root.txt
+   99  rm arch_root.txt
+  100  sudo rm arch_root.txt
+  101  ls -l
+  102  rm arch_root.txt
+  103  ls -l
+  104  rm root
+  105  ls -l
+  106  clear
+  107  groupadd Alumnos
+  108  sudo groupadd Alumnos
+  109  cat /etc/group
+  110  useradd -m -s /bin/bash -c "usuario pepe" -G Alumnos pepe
+  111  sudo useradd -m -s /bin/bash -c "usuario pepe" -G Alumnos pepe
+  112  cat /etc/passwd
+  113  cat /etc/group
+  114  ls -l /home
+  115  passwd pepe
+  116  sudo passwd pepe
+  117  su - pepe
+  118  sudo usermod -aG sudo pepe
+  119  exit
+  120  ls -l
+  121  pwd
+  122  ls -l /home
+  123  ls -l /home/pepe
+  124  su - pepe
+  125  sudo usermod -aG pepe
+  126  sudo usermod -aG sudo pepe
+  127  su - pepe
+  128  pwd
+  129  chgrp vagrant:vagrant /home/pepe/textopepe.txt
+  130  sudo chgrp vagrant:vagrant /home/pepe/textopepe.txt
+  131  sudo chgrp vagrant:vagrant /home/pepe/textpepe.txt
+  132  sudo chown vagrant:vagrant /home/pepe/textpepe.txt
+  133  sudo ls -l /home/pepe
+  134  su - pepe
+  135  ls -l
+  136  cd clase5
+  137  ls -l
+  138  touch practica1.txt
+  139  ls -l
+  140  touch practica2.txt
+  141  ls -l
+  142  chmod 600 practica1.txt
+  143  ls -l
+  144  chmod 444 practica2.txt
+  145  ls -l
+  146  chmod 644 practica2.txt
+  147  ls -l
+  148  echo "linea1" >> practica2.txt
+  149  cat practica2.txt
+  150  cd ..
+  151  ls -l
+  152  chmod -R 777 clase5/
+  153  ls -l
+  154  cd clase5
+  155  ls -l
+  156  chmod 666 *.txt
+  157  ls -l
+  158  cd ..
+  159  ls -l
+  160  chmod -R 775 clase5/
+  161  ls -l
+  162  chmod 666 clase5/*txt 
+  163  ls -l
+  164  pwd
+  165  ls -l
+  166  mkdir clase6
+  167  ls -l
+  168  cd clase6
+  169  ls -la
+  170  echo "ls -l  > script1
+  171  ls -l
+  172  cat script1
+  173  exit
+  174  cd clase6
+  175  ls -l
+  176  echo ls -l > script1
+  177  ls -l
+  178  bash script1
+  179  echo tree >> script1
+  180  cat script1
+  181  bash script1
+  182  echo whoami >> script1
+  183  ls -l
+  184  cat script1
+  185  echo pwd >> script1
+  186  ls -l
+  187  bash script1
+  188  ls -l
+  189  cat script1
+  190  bash script1
+  191  vim script2.sh
+  192  ls -l
+  193  cat script2.sh
+  194  ./script2.sh
+  195  chmod 764 script2.sh
+  196  ls -l
+  197  ./script2.sh
+  198  ls -l
+  199  tree
+  200  vim script3.sh
+  201  chmod 764 script3.sh
+  202  ls -l
+  203  ./script3.sh
+  204  tree
+  205  exit
+  206  ssh-keygen -t ed25519
+  207  sudo systemctl status sshd
+  208  cat .ssh/id_ed25519.pub
+  209  git clone git@github.com:AlexLeandro94/clase3Arq_Malagueno.git
+  210  ls
+  211  cd clase3Arq_Malagueno
+  212  ls
+  213  history > historia.txt
